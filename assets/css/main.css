@@ -1825,7 +1825,7 @@ input, select, textarea {
 		letter-spacing: 0.1em;
 		margin: 2em 0em 0em 0;
 		text-transform: uppercase;
-		
+		border-radius: 50%;
 	}
 
 		a.special:not(.button):before {
@@ -1847,7 +1847,7 @@ input, select, textarea {
 			-ms-transition: background-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out;
 			
-			
+			border-radius: 50%;
 			content: '\f105';
 			display: inline-block;
 			font-size: 1.25em;
@@ -3009,7 +3009,7 @@ input, select, textarea {
 				background: transparent;
 				border-radius: 50%;
 				border: 8px solid rgb(225, 162, 68);
-				left: 25px;
+				left: 15px;
 				right: 0;
 				margin: auto;
 
@@ -3021,4 +3021,5 @@ input, select, textarea {
 				height:"250";
 			}
 
+			
 	}
