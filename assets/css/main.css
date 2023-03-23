@@ -133,7 +133,7 @@ input, select, textarea {
 		font-size: 1.5em;
 		letter-spacing: 1px;
 		line-height: 35px;
-		margin-top: -30px;
+		/* margin-top: -30px; */
 		color: rgb(83, 82, 82);
 		font-size: 25px;
 		
@@ -147,12 +147,14 @@ input, select, textarea {
 				color: rgb(46, 45, 45);
 			}
 
+	/* change p 3 */
 	.title {
-
-		padding: 40px 0px 40px 00px;
-		margin : -50px 80px 0px 300px;
-		
+		/* padding: 40px 0px 40px 00px;
+		margin : -50px 80px 0px 300px; */
+		display: flex;
+		align-items: center;
 	}
+	/* change p 3 */
 
 
 	h3 {
@@ -242,6 +244,8 @@ input, select, textarea {
 		
 	}
 
+	
+
 	#portfolio h3{
 		font-family: Calibri, 'Trebuchet MS', sans-serif;
 	}
@@ -274,6 +278,42 @@ input, select, textarea {
 		width:"600";
 		height:"300";
 	}
+
+	/* bug fixed */
+		/* change p 0 */
+		.myself-container {
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.me-image {
+			width: 200px;
+		}
+		.me-image img {
+			width: 100%;
+			background: transparent;
+			border-radius: 50%;
+			border: 8px solid rgb(225, 162, 68);
+			left: 100px;
+			right: 0;
+			margin: auto;
+			box-shadow: 0.75em 0.75em 0.7em 0px rgba(0, 0, 0, 0.08);
+		}
+		/* change p 0 */
+
+		/* change p 8 */
+		.video {
+			width: 600px;
+			height: 300px;
+			margin: auto;
+		}
+		.video iframe {
+			width: 100%;
+			height: 100%;
+		}
+		/* change p 8 */
+	/* bug fixed */
+
+
 
 /* Container */
 
@@ -2482,8 +2522,8 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
-		padding: 3em 0 4em 0;
+		background-color: #E7F6F2;
+		padding: 1em 0 1em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
 		
@@ -2613,15 +2653,18 @@ input, select, textarea {
 	@media screen and (min-width: 961px) and (max-width: 1620px) {
 
 		/* Main */
-
+	
+			/* change p 1 */
 			#main > section {
-				padding: 3em 0;
+				padding: 2em 0;
 			}
+			/* change p 1 */
 
+			/* change p 2 */
 			#main section.cover {
-				padding: 5em 0;
+				padding: 5em 0 2em 0;
 			}
-
+			/* change p 2 */
 	}
 
 /* Narrow */
@@ -2901,23 +2944,28 @@ input, select, textarea {
 				font-size: 14pt;
 			}
 
+			/* change p 6 */
 			.title {
 
-				padding: 0px 0px 40px 00px;
+				padding: 40px 0px 40px 00px;
 				margin : 00px 0px 0px 00px;
+				justify-content: center;
 			}
+			/* change p 6 */
 		
 
 			#portfolio h3 {
 				font-size: 16pt;
 			}
 
+			/* change p 4 */
 			h2 {
-				margin-top: 200px;
+				/* margin-top: 200px; */
 				font-size: 1.5em;
 				letter-spacing: 0;
 				font-weight: 300;
 			}
+			/* change p 4 */
 
 			#portfolio h2{
 				margin-top: -60px ;
@@ -3002,7 +3050,7 @@ input, select, textarea {
 				}
 
 			/* image */
-			.image.me img {
+			/* .image.me img {
 				position: absolute;
 				width: 200px;
 				height: 200px;
@@ -3012,14 +3060,35 @@ input, select, textarea {
 				left: 15px;
 				right: 0;
 				margin: auto;
-
-				
-			}
+			} */
 
 			section > .video iframe{
 				width:"300";
 				height:"250";
 			}
 
+			/* change p 5 */
+			.myself-container {
+				display: block;
+			}
+			.me-image  {
+				margin: auto;
+			}
+			.card {
+				max-width: 95%;
+			}
+			.video {
+				width: auto;
+				height: 250px;
+			}
+			/* change p 5 */
 			
 	}
+
+	/* change p 7 */
+	@media screen and (min-width: 736px) and (max-width: 1120px) {
+		.myself-container {
+			margin-bottom: 40px;
+		}
+	}
+	/* change p 7 */
